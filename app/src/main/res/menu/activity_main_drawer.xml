@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Больше контента">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Оставить фидбек" />
+        </menu>
+    </item>
+
+    <item android:title="Ты можешь поддержать проект">
+        <menu>
+            <item
+                android:id="@+id/nav_donat"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Донат" />
+
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Оцени" />
+        </menu>
+
+    </item>
+
+</menu>
